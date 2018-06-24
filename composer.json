@@ -1,0 +1,17 @@
+{
+  "name": "wumvi/vkanalytics",
+  "require": {
+    "wumvi/lightweight-curl": "@stable",
+    "wumvi/core.db": "@stable",
+    "monolog/monolog": "@stable"
+  },
+  "config": {
+    "cache-dir": "/tmp/cache/composer/"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bot\\": "src",
+      "Vk\\": "vk"
+    }
+  }
+}
