@@ -1,5 +1,5 @@
 {
-  "name": "wumvi/vkanalytics",
+  "name": "wumvi/vkapi",
   "require": {
     "wumvi/lightweight-curl": "@stable",
     "wumvi/core.db": "@stable",
@@ -10,7 +10,6 @@
   },
   "autoload": {
     "psr-4": {
-      "Bot\\": "src",
       "Vk\\": "vk"
     }
   }
